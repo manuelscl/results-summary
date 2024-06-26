@@ -20,7 +20,7 @@ This component is perfect for applications that need to present evaluation resul
 
 ## Links
 
-- Website - [results-summary](https://github.com/manuelscl/results-summary)
+- Website - [results-summary](https://manuelscl.github.io/results-summary)
 
   
 
