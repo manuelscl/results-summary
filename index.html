@@ -2,35 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles.css">
-  <title>Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=swap" rel="stylesheet">
+  <title>Results Summary Component</title>
 </head>
 <body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
+  <main class="results-summary">
+    <section class="results-section">
+      <p class="results-title">Your Result</p>
+      <div class="score-circle">
+        <span class="score-number">76</span>
+        <span class="score-text">of 100</span>
+      </div>
+      <div class="result-evaluation">
+        <h2 class="evaluation-title">Great</h2>
+        <p class="evaluation-text">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </section>
+    <section class="summary-section">
+      <h2 class="summary-title">Summary</h2>
+      <div class="summary-item summary-reaction">
+        <span class="summary-label"><img src="./assets/images/icon-reaction.svg" alt="Reaction icon"/>Reaction</span>
+        <span class="summary-score"><span class="score-bold">80</span>/ 100</span>
+      </div>
+      <div class="summary-item summary-memory">
+        <span class="summary-label"><img src="./assets/images/icon-memory.svg" alt="Memory icon"/>Memory</span>
+        <span class="summary-score"><span class="score-bold">92</span>/ 100</span>
+      </div>
+      <div class="summary-item summary-verbal">
+        <span class="summary-label"><img src="./assets/images/icon-verbal.svg" alt="Verbal icon"/>Verbal</span>
+        <span class="summary-score"><span class="score-bold">61</span>/ 100</span>
+      </div>
+      <div class="summary-item summary-visual">
+        <span class="summary-label"><img src="./assets/images/icon-visual.svg" alt="Visual icon"/>Visual</span>
+        <span class="summary-score"><span class="score-bold">72</span>/ 100</span>
+      </div>
+      <button class="button-continue">Continue</button>
+    </section>
+  </main>
 </body>
 </html>
