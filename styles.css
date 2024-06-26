@@ -172,3 +172,55 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@media screen and (min-width: 620px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .results-summary {
+        max-width: 570px;
+        height: 395px;
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        box-shadow: 5px 5px 35px 5px rgb(229, 231, 255);
+        overflow: hidden;
+    }
+    .results-section {
+        width: 50%;
+        justify-content: space-between;
+        padding: 30px;
+        border-radius: 30px;
+    }
+    .score-circle {
+        width: 150px;
+        height: 150px;
+    }
+    .results-title {
+        font-size: 17px;
+    }
+    .evaluation-title {
+        font-size: 22px;
+    }
+    .evaluation-text {
+        width: 85%;
+        text-align: center;
+    }
+    .summary-section {
+        width: 50%;
+        padding: 30px;
+        gap: 12px;
+        justify-content: space-between;
+        background: white;
+        margin: 0;
+    }
+    .summary-title {
+        margin: 0;
+    }
+    .button-continue {
+        margin-top: 20px;
+    }
+}
